@@ -557,4 +557,3 @@ function showGoldRatePopup(){
     document.getElementById("goldpopup").classList.toggle("show");
 }
 
-
