@@ -11120,3 +11120,7 @@ html {
   height: 50px !important;
   margin-bottom: 12px;
 }
+h2
+{
+	margin-bottom:0px !important;
+}
