@@ -1898,7 +1898,7 @@ html {
   
   .pagination ul li a.prev {
     color: #868686;
-    font-size: 0;
+    font-size: 14px;
   }
   
   .button-arrow:after {
@@ -2288,9 +2288,6 @@ html {
     border-top-width: 0;
   }
   
-  .pagination ul li a.prev:before {
-    content: "4"
-  }
   
   .products-loadmore .loadmore:hover .lds-ellipsis div {
     background: #fff;
@@ -6577,7 +6574,7 @@ html {
   
   .block-intro.layout-3 .intro-title {
     color: #c98930;
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 600;
     line-height: 55px;
     margin-bottom: 16.5pt;
@@ -10361,7 +10358,7 @@ html {
   }
   
   .page-about-us .block .block-title h2 {
-    font-size: 3.125pc;
+    font-size: 35px;
   }
   
   .page-faq .faq-section .section-title h2 {
@@ -11119,4 +11116,19 @@ html {
   width: 92px !important;
   height: 50px !important;
   margin-bottom: 12px;
+}
+
+h2
+{
+	margin-top:0px !important;
+}
+.gallery .left ,.gallery .right
+{
+  flex: 0 0 36.75% !important;
+  max-width: 36.75% !important;
+}
+.gallery .center
+{
+  flex: 0 0 26.5% !important;
+  max-width: 26.5% !important;
 }
