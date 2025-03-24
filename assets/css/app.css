@@ -1360,10 +1360,9 @@ html {
   }
   
   body.home .section .block-title h2 {
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 10px;
     margin-top: 0;
-    text-transform: uppercase;
   }
   
   .m-t-5 {
@@ -5034,7 +5033,7 @@ html {
   
   .block-products.slider .content-product-list i.slick-arrow {
     font-size: 15pt;
-    top: 40%
+    top: 50%
   }
   
   .block-banners.layout-3 .section-column.right .block-widget-banner:first-child .banner-wrapper-infor {
@@ -6656,11 +6655,10 @@ html {
   }
   
   .block-intro .intro-title {
-    font-size: 37px;
+    font-size: 44px;
     line-height: 50px;
     margin-bottom: 22px;
     margin-top: 0;
-    text-transform: uppercase;
   }
   
   .block-product-cats.layout-5 .item-product-cat-content .product-cat-content-info {
@@ -6963,7 +6961,7 @@ html {
   }
   
   .block-intro.layout-5 .intro-title {
-    font-size: 37.5pt;
+    font-size: 32pt;
     margin-bottom: 25px;
     text-transform: none;
   }
@@ -7067,10 +7065,8 @@ html {
   }
   
   .block-intro.layout-6 .intro-title {
-    font-size: 1.875pc;
-    line-height: 40px;
+    font-size:44px;
     margin-bottom: 1.25pc;
-    text-transform: uppercase;
   }
   
   .block-contact-info .info-icon svg {
@@ -11080,4 +11076,47 @@ html {
 }
 .form-box input[type="file"] {
 	margin-bottom: 15px;
+}
+
+.achievments
+{
+  background-image: url(../img/bg-img-6.jpg)!important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tab-content > .tab-pane, [class~=custom-radio] li input {
+  display: none;
+}
+.block-intro.layout-4 .nav-tabs .nav-item a.active
+{color: #000;}
+
+.teams h2
+{ margin-top: 0;}
+.teams .block-banners.layout-5 .block-widget-banner .banner-wrapper-infor .content .title-banner {
+  color: #c98930;
+  font-size: 17px !important;
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+.new-arrivals i.slick-arrow:hover {
+  background: #c98930;
+  border-bottom-color: #c98930;
+  border-left-color: #c98930;
+  border-right-color: #c98930;
+  border-top-color: #c98930;
+  color: #fff;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.icon-detail
+{
+  display: flex;
+  justify-content: center;
+}
+.icon-detail svg {
+  width: 92px !important;
+  height: 50px !important;
+  margin-bottom: 12px;
 }
