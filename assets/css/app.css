@@ -11132,3 +11132,14 @@ h2
   flex: 0 0 26.5% !important;
   max-width: 26.5% !important;
 }
+
+.teams .block-banners.layout-5 .block-widget-banner .banner-wrapper-infor {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    position: relative;
+}
+.teams .block-banners.layout-5 .block-widget-banner .banner-wrapper-infor .info
+{
+  padding-top: 10px;
+}
